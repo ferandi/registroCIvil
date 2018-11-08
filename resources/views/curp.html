@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      </head>
+ <style>
+     .w-in{
+         width: 250px;
+     }
+     #panel{
+       border: 3px #fa83fa inset;
+       height: 400px;
+     }
+     label{
+       padding-bottom: 5px;
+     }
+
+     .alin{
+      align-content:center;
+      margin-left: 300px;
+     }
+
+     .p-l{
+       padding-left: 40px;
+     }
+     form{
+       align-content: center;
+     }
+     .flt-r{
+       float: right;
+     }
+     
+     .font-lb{
+       font-family: Century Gothic;
+       font: 14px;
+       padding-bottom: 4px;
+      }
+
+      .p-top{
+        padding-top: 15px;
+      }
+
+ </style>
+
+
+<body>
+    <section id="panel" class="col-md-6 col-xs-12 alin">
+             <form>
+          <div class="row">
+              <div class="col-md-6 col-xs-12 p-l p-top">
+                  <div class="form-group">
+                      <label for="" class="control-label font-lb">Nombre(s)</label>
+                    <input type="text" class="form-control ember-text-field ember-view w-in">
+                  </div>
+                </div>
+                  
+                <div class="col-md-6 col-xs-12 p-top">
+                    <div class="form-group">
+                        <label for="" class="control-label font-lb">Apellido Paterno</label>
+                      <input type="text" class="form-control ember-text-field ember-view w-in">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-xs-12 p-l">
+                      <div class="form-group">
+                          <label for="" class="control-label font-lb">Apellido Materno</label>
+                        <input type="text" class="form-control ember-text-field ember-view w-in">
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <div class="form-group">
+                            <label for="" class="control-label font-lb">Día de nacimiento</label>
+                              <select id="diaNacimiento" name="diaNacimiento" class="campos form-control form-selected select w-in" data-ember-action="" data-ember-action-288="288">
+                                  <option value="" disabled="" selected="">Selecciona el día</option>
+                                    <option value="01" class="font-lb">01</option>
+                                    <option value="02" class="font-lb">02</option>
+                                    <option value="03" class="font-lb">03</option>
+                                    <option value="04" class="font-lb">04</option>
+                                    <option value="05" class="font-lb">05</option>
+                                    <option value="06" class="font-lb">06</option>
+                                    <option value="07" class="font-lb">07</option>
+                                    <option value="08" class="font-lb">08</option>
+                                    <option value="09" class="font-lb">09</option>
+                                    <option value="10" class="font-lb">10</option>
+                                    <option value="11" class="font-lb">11</option>
+                                    <option value="12" class="font-lb">12</option>
+                                    <option value="13" class="font-lb">13</option>
+                                    <option value="14" class="font-lb">14</option>
+                                    <option value="15" class="font-lb">15</option>
+                                    <option value="16" class="font-lb">16</option>
+                                    <option value="17" class="font-lb">17</option>
+                                    <option value="18" class="font-lb">18</option>
+                                    <option value="19" class="font-lb">19</option>
+                                    <option value="20" class="font-lb">20</option>
+                                    <option value="21" class="font-lb">21</option>
+                                    <option value="22" class="font-lb">22</option>
+                                    <option value="23" class="font-lb">23</option>
+                                    <option value="24" class="font-lb">24</option>
+                                    <option value="25" class="font-lb">25</option>
+                                    <option value="26" class="font-lb">26</option>
+                                    <option value="27" class="font-lb">27</option>
+                                    <option value="28" class="font-lb">28</option>
+                                    <option value="29" class="font-lb">29</option>
+                                    <option value="30" class="font-lb">30</option>
+                                    <option value="31" class="font-lb">31</option>
+                                    </select>
+                        </div>
+                      </div>
+                  
+                      <div class="col-md-6 col-xs-12 p-l">
+                          <div class="form-group">
+                              <label for="" class="control-label font-lb">Mes de nacimiento</label>
+                                <select id="mesNacimiento" name="mesNacimiento" class="campos form-control form-selected select w-in" data-ember-action="" data-ember-action-289="289">
+                                    <option value="" disabled="" selected="">Selecciona el mes</option>
+                                      <option value="01" class="font-lb">01</option>
+                                      <option value="02" class="font-lb">02</option>
+                                      <option value="03" class="font-lb">03</option>
+                                      <option value="04" class="font-lb">04</option>
+                                      <option value="05" class="font-lb">05</option>
+                                      <option value="06" class="font-lb">06</option>
+                                      <option value="07" class="font-lb">07</option>
+                                      <option value="08" class="font-lb">08</option>
+                                      <option value="09" class="font-lb">09</option>
+                                      <option value="10" class="font-lb">10</option>
+                                      <option value="11" class="font-lb">11</option>
+                                      <option value="12" class="font-lb">12</option>
+                                    </select>
+                                  </div>
+                          </div>
+
+                          <div class="col-md-6 col-xs-12">
+                              <div class="form-group">
+                                  <label for="" class="control-label font-lb">Año de nacimiento <label>
+                                <input type="number" class="form-control ember-text-field ember-view w-in">
+                              </div>
+                            
+                        </div>
+
+                        <div class="col-md-6 col-xs-12 p-l">
+                            <div class="form-group">
+                                <label for="" class="control-label font-lb">Sexo <label>
+                                    <select id="mesNacimiento" name="mesNacimiento" class="campos form-control form-selected select w-in" data-ember-action="" data-ember-action-289="289">
+                                        <option value="" disabled="" selected="">Selecciona el sexo</option>
+                                        <option value="Hombre" class="font-lb">Hombre</option>
+                                        <option value="Mujer" class="font-lb">Mujer</option>
+                                        </select>
+                            </div>
+                      </div>
+
+                      <div class="col-md-6 col-xs-12">
+                          <div class="form-group">
+                              <label for="" class="control-label font-lb">Estado <label>
+                                  <select id="estado" name="estado" class="campos form-control form-selected select small" data-ember-action="" data-ember-action-294="294">
+                                      <option value="" disabled="" selected="">Selecciona el estado</option>
+                                        <option value="1" class="font-lb">Aguascalientes</option>
+                                        <option value="2" class="font-lb">Baja California</option>
+                                        <option value="3" class="font-lb">Baja California Sur</option>
+                                        <option value="4" class="font-lb">Campeche</option>
+                                        <option value="5" class="font-lb">Coahuila</option>
+                                        <option value="6" class="font-lb">Colima</option>
+                                        <option value="7" class="font-lb">Chiapas</option>
+                                        <option value="8" class="font-lb">Chihuahua</option>
+                                        <option value="9" class="font-lb">Ciudad de México</option>
+                                        <option value="10" class="font-lb">Durango</option>
+                                        <option value="11" class="font-lb">Guanajuato</option>
+                                        <option value="12" class="font-lb">Guerrero</option>
+                                        <option value="13" class="font-lb">Hidalgo</option>
+                                        <option value="14" class="font-lb">Jalisco</option>
+                                        <option value="15" class="font-lb">Estado de México</option>
+                                        <option value="16" class="font-lb">Michoacán</option>
+                                        <option value="17" class="font-lb">Morelos</option>
+                                        <option value="18" class="font-lb">Nayarit</option>
+                                        <option value="19" class="font-lb">Nuevo León</option>
+                                        <option value="20" class="font-lb">Oaxaca</option>
+                                        <option value="21" class="font-lb">Puebla</option>
+                                        <option value="22" class="font-lb">Querétaro</option>
+                                        <option value="23" class="font-lb">Quintana Roo</option>
+                                        <option value="24" class="font-lb">San Luis Potosí</option>
+                                        <option value="25" class="font-lb">Sinaloa</option>
+                                        <option value="26" class="font-lb">Sonora</option>
+                                        <option value="27" class="font-lb">Tabasco</option>
+                                        <option value="28" class="font-lb">Tamaulipas</option>
+                                        <option value="29" class="font-lb">Tlaxcala</option>
+                                        <option value="30" class="font-lb">Veracruz</option>
+                                        <option value="31" class="font-lb">Yucatán</option>
+                                        <option value="32" class="font-lb">Zacatecas</option>
+                                        <option value="39" class="font-lb">Registrado en el extranjero</option>
+                                    </select>
+                          </div>
+                        
+                    </div>
+                    
+        </div>
+        
+      </form>
+
+      <button type="button" class="btn btn-info flt-r"><i class="fa fa-search"></i>Buscar</button>
+    
+    </section>
+        
+</body>
+
+
+
+</html>
